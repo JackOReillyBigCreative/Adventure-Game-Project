@@ -102,6 +102,9 @@ def standard_combat(target_name, target_health, target_damage,
                     #If the weapon selected is equal to 2 you shoot an infinite range
                     #shotgun projectile and take 50 damage
                     weapon_loop = False
+                elif "3" in weapon_choice:
+                    print("CHAINGUN HAS NO ALT FIRE.")
+                    Wait.wait(2)
 
             elif "n" in alt_fire:
                 if "1" in weapon_choice and \
